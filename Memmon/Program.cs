@@ -21,6 +21,7 @@ namespace Memmon
             }
         }
 
+        //Check if memory is lower than the limit
         private static bool MemoryLow()
         {
             if (ci.AvailablePhysicalMemory < kLimit) return true;
