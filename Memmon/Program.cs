@@ -16,7 +16,7 @@ namespace Memmon
             {
                 //If memory is lower than the limit, show warning
                 if (MemoryLow()) 
-                    MessageBox.Show("Memory running low!!!","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    MessageBox.Show("System running out of memory!!!","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 System.Threading.Thread.Sleep(10000);
             }
         }
