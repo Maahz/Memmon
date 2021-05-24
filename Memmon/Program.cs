@@ -7,7 +7,7 @@ namespace Memmon
 {
     class Program
     {
-        internal const ulong kLimit = 2684354560;  //Warning limit
+        internal const ulong kLimit = 2147483648;  //Warning limit
 
         internal static ComputerInfo ci = new ComputerInfo();
         static void Main(string[] args)
